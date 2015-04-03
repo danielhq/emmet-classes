@@ -1,0 +1,247 @@
+/**
+* Box properties
+*/
+.posr {
+  position: relative;
+}
+
+.posa {
+  position: absolute;
+}
+
+.poss {
+  position: static;
+}
+
+.posf {
+  position: fixed;
+}
+
+.dn {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.dt {
+  display: table;
+}
+
+.dtr {
+  display: table-row;
+}
+
+.dtc {
+  display: table-cell;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.fn {
+  float: none;
+}
+
+.cl {
+  clear: both;
+}
+
+.cl-n {
+  clear: none;
+}
+
+.cl-r {
+  clear: right;
+}
+
+.m0-a {
+  margin: 0 auto;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.mt-a {
+  margin-top: auto;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mb-a {
+  margin-bottom: auto;
+}
+
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mr-a {
+  margin-right: auto;
+}
+
+.mr0 {
+  margin-right: 0;
+}
+
+.ml-a {
+  margin-left: auto;
+}
+
+.ml0 {
+  margin-left: 0;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.pt0 {
+  padding-top: 0;
+}
+
+.pb0 {
+  padding-bottom: 0;
+}
+
+.pl0 {
+  padding-left: 0;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.ov-h {
+  overflow: hidden;
+}
+
+.ov-v {
+  overflow: visible;
+}
+
+.ov-s {
+  overflow: scroll;
+}
+
+.vh {
+  visibility: hidden;
+}
+
+.vv {
+  visibility: visible;
+}
+
+.wa {
+  width: auto;
+}
+
+.w100p {
+  width: 100%;
+}
+
+.w0 {
+  width: 0;
+}
+
+.ha {
+  height: auto;
+}
+
+.h100p {
+  height: 100%;
+}
+
+.h0 {
+  height: 0;
+}
+
+.maw100p {
+  max-width: 100%;
+}
+
+.mah100p {
+  max-height: 100%;
+}
+
+/**
+* Font & Text properties
+*/
+.fwn {
+  font-weight: normal;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.fsi {
+  font-style: italic;
+}
+
+.fsn {
+  font-style: normal;
+}
+
+.vat {
+  vertical-align: top;
+}
+
+.vam {
+  vertical-align: middle;
+}
+
+.vab {
+  vertical-align: bottom;
+}
+
+.ta {
+  text-align: left;
+}
+
+.tac {
+  text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+.ti- {
+  text-indent: -9999px;
+}
+
+/**
+* Lists
+*/
+.lsn {
+  list-style: none;
+}
+
+.lsd {
+  list-style: disc;
+}
+
+/**
+* Misc
+*/
+.op0 {
+  opacity: 0;
+}
