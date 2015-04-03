@@ -1,7 +1,9 @@
 /**
 * Box properties
 */
+
 // Position
+
 .posr, %posr {
 	position: relative;
 }
@@ -15,6 +17,7 @@
 	position: fixed;
 }
 // Display
+
 .dn, %dn {
 	display: none;
 }
@@ -34,6 +37,7 @@
 	display: table-cell;
 }
 // Float
+
 .fl, %fl {
 	float: left;
 }
@@ -43,29 +47,181 @@
 .fn, %fn {
 	float: none;
 }
+
+// Clears
+
+.cl {
+	clear: both;
+}
+.cl-n {
+	clear: none;
+}
+.cl-r {
+	clear: right;
+}
+
 // Margins
-.m0-a {
+
+.m0-a, %m0-a {
 	margin: 0 auto;
 }
-.m0 {
+.m0, %m0 {
 	margin: 0;
 }
+.mt-a, %mt-a {
+	margin-top: auto;
+}
+.mt0, %mt-0 {
+	margin-top: 0;
+}
+
+.mb-a, %mb-a {
+	margin-bottom: auto;
+}
+.mb0, %mb-0 {
+	margin-bottom: 0;
+}
+
+.mr-a, %mr-a {
+	margin-right: auto;
+}
+.mr0, %mr-0 {
+	margin-right: 0;
+}
+.ml-a, %ml-a {
+	margin-left: auto;
+}
+.ml0, %ml-0 {
+	margin-left: 0;
+}
 // Paddings
-.p0	{
+
+.p0, %p0 {
 	padding: 0;
 }
+.pt0, %pt0 {
+	padding-top: 0;
+}
+.pb0, %pb0 {
+	padding-bottom: 0;
+}
+.pl0, %pl0  {
+	padding-left: 0;
+}
+.pr0, %pr0 {
+	padding-right: 0;
+}
 
-// Box
-.wa {
+// Overflow
+
+.ov-h, %oh {
+	overflow: hidden;
+}
+.ov-v, %ov {
+	overflow: visible;
+}
+.ov-s, %ov-s {
+	overflow: scroll;
+}
+
+// Visibility
+
+.vh, %vh {
+	visibility: hidden;
+}
+.vv, %vv {
+	visibility: visible;
+}
+
+// Box sizing
+
+.wa, %wa {
 	width: auto;
 }
-.w100p {
+.w100p, %w100p {
 	width: 100%;
 }
+.w0, %w0 {
+	width: 0;
+}
 
-.ha {
+.ha, %ha {
 	height: auto;
 }
-.h100p {
+.h100p, %h100p {
 	height: 100%;
+}
+.h0, %h0 {
+	height: 0;
+}
+
+.maw100p, %maw100p {
+	max-width: 100%;
+}
+.mah100p, %mah100p {
+	max-height: 100%;
+}
+
+/**
+* Font & Text properties
+*/
+
+// Font
+
+.fwn, %fwn {
+	font-weight: normal;
+}
+.fwb, %fwb {
+	font-weight: bold;
+}
+.fsi, %fsi {
+	font-style: italic;
+}
+.fsn, %fsn {
+	font-style: normal;
+}
+
+// Text
+
+.vat, %vat {
+	vertical-align: top;
+}
+.vam, %vam {
+	vertical-align: middle;
+}
+.vab, %vab {
+	vertical-align: bottom;
+}
+.ta, %ta {
+	text-align: left;
+}
+.tac, %tac {
+	text-align: center;
+}
+.tar, %tar {
+	text-align: right;
+}
+.tdn, %tdn {
+	text-decoration: none;
+}
+.ti-, %ti- {
+	text-indent: -9999px;
+}
+
+/**
+* Lists
+*/
+.lsn, %lsn {
+	list-style: none;
+}
+.lsd, %lsd {
+	list-style: disc;
+}
+
+/**
+* Misc
+*/
+
+.op0, %op0 {
+	opacity: 0;
 }
