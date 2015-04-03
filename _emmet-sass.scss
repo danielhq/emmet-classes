@@ -50,13 +50,13 @@
 
 // Clears
 
-.cl {
+.cl, %cl {
 	clear: both;
 }
-.cl-n {
+.cl-n, %cl-n {
 	clear: none;
 }
-.cl-r {
+.cl-r, %cl-r {
 	clear: right;
 }
 
