@@ -1,0 +1,24 @@
+{
+  "name": "emmet-classes",
+  "version": "0.0.1",
+  "homepage": "https://github.com/danielhq/emmet-classes",
+  "description": "Set of html classes based on emmet syntax for rapid prototyping",
+  "main": "_emmet-sass.scss",
+  "keywords": [
+    "emmet",
+    "sass",
+    "css",
+    "prototyping"
+  ],
+  "authors": [
+    "danielhq"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
